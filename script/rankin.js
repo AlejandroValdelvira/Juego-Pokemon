@@ -1,6 +1,6 @@
 async function actualizarRanking() {
     try {
-        const res = await fetch('getRanking.php');
+        const res = await fetch('php/getRanking.php');
         const data = await res.json();
 
         const ul = document.getElementById('rankingList');

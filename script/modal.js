@@ -31,7 +31,7 @@ document
     const nombre = this.nombre.value;
     const puntuacion = contador;
 
-      fetch("insertar.php", {
+      fetch("php/insertar.php", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: `nombre=${encodeURIComponent(nombre)}&puntuacion=${puntuacion}`,
