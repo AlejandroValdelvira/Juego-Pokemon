@@ -1,2 +1,3 @@
 # Juego-Pokemon
-He creado este juego de Pokémon para practicar con la asincronía de javascript, css y php.
+Este proyecto es un juego de Pokémon desarrollado como práctica para mejorar el uso de asincronía en JavaScript, complementado con CSS y PHP
+
