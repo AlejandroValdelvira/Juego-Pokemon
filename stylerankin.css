@@ -1,0 +1,66 @@
+/* Contenedor del ranking */
+.ranking-container {
+  margin-top: 2rem;
+  padding: 1.5rem 2rem;
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* efecto cristal */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Título del ranking */
+.ranking-container h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffcb05;
+  text-shadow: 1px 1px 3px #2a2f8a;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Lista del ranking */
+#rankingList {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+/* Cada jugador del ranking */
+#rankingList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-weight: 600;
+  color: #2a2f8a;
+}
+
+/* Hover sobre cada jugador */
+#rankingList li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Puntaje destacado */
+#rankingList li span.puntos {
+  font-weight: 700;
+  color: #ffcb05;
+}
+
+/* Medallas opcionales para los 3 primeros */
+#rankingList li.first { border-left: 5px solid gold; }
+#rankingList li.second { border-left: 5px solid silver; }
+#rankingList li.third { border-left: 5px solid #cd7f32; }

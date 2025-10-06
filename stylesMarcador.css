@@ -1,0 +1,15 @@
+#marcador {
+  display: flex;
+  height: 3px;
+  width: 400px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marca {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: rgb(255, 255, 255);
+}
